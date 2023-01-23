@@ -16,23 +16,9 @@
     <!---import Babel to transpile jsx-->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <!---write script inline or import js/jsx, adding attributes for Babel-->
-    <script type="text/babel" data-presets="react">
-    function Greeting() {
-      return <h1>Hello world</h1>
-    }
-    
-    function App() {
-      return <Greeting/>
-    }
-
-
-
-    const root = ReactDOM.createRoot(document.getElementById('root'))
-    root.render(<App/>)
+    <script type="text/babel" data-presets="react" src="index.jsx" >
+   
     </script>
-
-
-
 
 
     <script type="module" src="/src/main.jsx"></script>
