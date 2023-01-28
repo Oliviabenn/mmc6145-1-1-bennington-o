@@ -3,7 +3,7 @@ import styles from './about.module.css'
 
 const About = () => {
     return (
-        <div id="about-title" className={styles.title}>This is about page</div>
+        <div><h1>About me</h1></div>
     )
 }
 export default About;
