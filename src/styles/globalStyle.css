@@ -64,7 +64,13 @@ button{
 }
 .project{
   position: relative;
- 
+  margin: 20px auto;
+  margin-top: 50px;
+  width: 60%;
+  
+}
+.project img{
+  width: 100%;
 }
 .project div{
   position: absolute;
