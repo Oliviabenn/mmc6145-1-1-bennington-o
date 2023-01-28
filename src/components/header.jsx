@@ -4,11 +4,8 @@ export default function Header() {
     return (
         <header>
             <Link to="/">Home</Link>
-            <Link to="/about.jsx">About</Link>
-            <Link to="/contact.jsx">About</Link>
+            <Link to="/about">About</Link>
+            <Link to="/contact">Contact</Link>
         </header>
     )
-
-
-
 }

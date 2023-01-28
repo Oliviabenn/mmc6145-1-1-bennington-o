@@ -1,18 +1,23 @@
 import { Route, Routes } from 'react-router-dom'
 import Header from './components/header'
 import Home from './pages/home'
-import about from './pages/about'
-import contact from './pages/contact'
-import '.style.css'
+import About from './pages/about'
+import Contact from './pages/contact'
+import "./styles/globalStyle.css"
 
 function App() {
   return (
-    <>
+    <div>
+      <Header />
+    
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </>
+      </Routes> 
+    </div>
   )
 }
+
+export default App

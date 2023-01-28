@@ -1,1 +1,8 @@
-import styles from '../styles/home.module.css'
+
+
+const Contact = () => {
+    return (
+        <div>This is Contact page</div>
+    )
+}
+export default Contact;
