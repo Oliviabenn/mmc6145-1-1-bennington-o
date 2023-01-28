@@ -6,3 +6,9 @@ h1 {
   font-size: 3em;
   line-height: 1.1;
 }
+.project{
+  position: relative;
+}
+.project div{
+  position: absolute;
+}

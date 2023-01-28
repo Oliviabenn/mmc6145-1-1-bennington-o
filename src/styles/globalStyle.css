@@ -62,3 +62,14 @@ button{
   padding: 8px;
   background-color:#ee8274;
 }
+.project{
+  position: relative;
+ 
+}
+.project div{
+  position: absolute;
+ 
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
