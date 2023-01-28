@@ -10,7 +10,7 @@ export default function Header() {
                     <Link to="/contact">Contact</Link>
                 </div>
             </nav>
-               <div class="info">
+               <div className="info">
                     <h2>OB Portfolio</h2>
                     <p>Web Developer Extraordinaire</p>
                     <p><button>About Me</button></p>
