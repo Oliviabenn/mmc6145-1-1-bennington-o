@@ -3,9 +3,18 @@ import { Link } from 'react-router-dom'
 export default function Header() {
     return (
         <header>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-        </header>
+            <nav>
+                <Link to="/">Home</Link>
+                <div>
+                    <Link to="/about">About</Link>
+                    <Link to="/contact">Contact</Link>
+                </div>
+            </nav>
+               <div class="info">
+                    <h2>OB Portfolio</h2>
+                    <p>Web Developer Extraordinaire</p>
+                    <p><button>About Me</button></p>
+               </div>
+        </header> 
     )
 }
