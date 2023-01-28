@@ -1,13 +1,15 @@
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 export default function Header() {
+const location= useLocation();
+
     return (
         <header>
             <nav>
-                <Link to="/">Home</Link>
+                <Link to="/" className={location.pathname === "/" ? 'active' : ''}>Home</Link>
                 <div>
-                    <Link to="/about">About</Link>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/about" className={location.pathname === "/about" ? 'active' : ''}>About</Link>
+                    <Link to="/contact" className={location.pathname === "/contact" ? 'active' : ''}>Contact</Link>
                 </div>
             </nav>
                <div className="info">
