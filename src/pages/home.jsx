@@ -18,7 +18,7 @@ export default function Home() {
                   <img src={project.image} alt="image1"/>
                   <div>
                     <h2>{project.title}</h2>
-                    <p>{project.desc}</p>
+                    <p><i>{project.desc}</i></p>
                   </div>
               </div>
           ))        

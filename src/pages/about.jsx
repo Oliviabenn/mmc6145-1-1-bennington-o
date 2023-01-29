@@ -6,7 +6,7 @@ const About = () => {
         <div className="page">
             <h1>About me</h1>
             <div >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates enim id eos cum alias facilis obcaecati doloribus iusto recusandae, rem, ducimus molestiae minima quibusdam nesciunt, dolore dolorum consequuntur eligendi! Suscipit, iure iste. Nobis quia dignissimos voluptates voluptate similique repudiandae distinctio magnam necessitatibus reiciendis, corporis porro delectus illo, culpa sit qui cupiditate odio aut est sapiente doloremque perspiciatis dicta. Iste similique fugit eligendi, minus ad quibusdam cupiditate numquam tenetur voluptatum voluptas provident ipsa facere modi non consequuntur repellat distinctio placeat itaque animi nesciunt harum error. Numquam voluptates porro odio. Obcaecati laborum veniam rerum delectus expedita iure quam asperiores fuga. Odit, error!</p>
+                <p>I am a graduate student at the University of Florida studying Web Design and development. Originally from New York, I have a background in theatrical design and production with most of my professional expereince in the theater. I began studying Web Design with the intent of broadening my skills and exploring my interest in technology and the ways it affects our society. This semester we will be practicing how to create Single-Page Applications and client-side rendering in modern front-end web development. Objectives for this semester include gaining an understanding of the various options available when constructing full-stack applications, as well as the serverless architecture used to deploy and host them <i>(via course description on Canva)</i>.</p>
             </div>
         </div>
     )
