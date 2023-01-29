@@ -15,7 +15,7 @@ const location= useLocation();
                <div className="info">
                     <h2>OB Portfolio</h2>
                     <p><i>Web Designer & Developer</i></p>
-                    <p><button>About Me</button></p>
+                    <p><button><a href="/about">Learn More</a></button></p>
                </div>
         </header> 
     )
