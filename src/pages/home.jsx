@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <div className="home">
           <h1>Welcome!</h1>
+          <h3><i>Browse works below:</i></h3>
           {projects.map((project, index)=> (
                <div className="project" key={index}>
                   <img src={project.image} alt="image1"/>

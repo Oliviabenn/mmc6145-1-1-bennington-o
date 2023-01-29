@@ -14,7 +14,7 @@ const location= useLocation();
             </nav>
                <div className="info">
                     <h2>OB Portfolio</h2>
-                    <p>Web Developer Extraordinaire</p>
+                    <p><i>Web Designer & Developer</i></p>
                     <p><button>About Me</button></p>
                </div>
         </header> 

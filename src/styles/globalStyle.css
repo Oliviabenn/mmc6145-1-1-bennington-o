@@ -37,8 +37,14 @@ h1 {
   color: #000000;
   text-align: center;
 }
+h3 {
+  font-size: 1em;
+  line-height: 1;
+  color: #000000;
+  text-align: center;
+}
 header{
-     height: 300px;
+    
      background-color: #242424;
      width: 100%;
      padding: 5px;
@@ -62,30 +68,34 @@ header h2{
 }
 button{
   padding: 8px;
-  background-color:#ee8274;
+  background-color:#ff0061;
 }
 .project{
   position: relative;
   margin: 20px auto;
   margin-top: 50px;
   width: 60%;
-  
 }
+
 .project img{
   width: 100%;
+  border:2px solid #fff;
+  box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 .project div{
   position: absolute;
- 
-  top: 40%;
+  top: 25%;
   left: 50%;
   transform: translateX(-50%);
 }
 .page div{
-  background-color: lightgrey;
+  background-color: #ededed;
   margin-top: 50px;
   color: black;
-  padding: 10px;
+  padding: 30px;
 }
 .social{
   display: flex;
