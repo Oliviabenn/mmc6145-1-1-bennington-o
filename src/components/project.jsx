@@ -2,7 +2,7 @@ export default function Project() {
     const [projects, setProjects]= useState([
       {image: 'images/image_1.jpg', title: 'BadPony Shop', desc: 'Shop specializing in custom apparel'}, 
       {image: 'images/image_2.jpg', title: 'Common Ground', desc: 'Wesbite for finding homes'},
-      {image: 'images/image_3.jpg', title: 'TRC Mobile layout', desc: 'Mobile page for TRC Creative Group'}
+      {image: 'images/image_3.jpg', title: 'TCG Mobile layout', desc: 'Mobile page for TCG Creative Group'}
     ]);
   
     return (
